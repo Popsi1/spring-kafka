@@ -40,6 +40,14 @@
             <artifactId>spring-kafka-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>iso8583-switch-standard-lib-1.3</groupId>
+            <artifactId>iso8583-standard-lib-1.3</artifactId>
+            <version>1.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/lib/android_standard_lib-1.3.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
